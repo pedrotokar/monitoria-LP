@@ -16,8 +16,9 @@ avisando que só recebe inteiros e retornar `None`.
 ## Exercício 2
 
 Escreva uma função que receba dois números naturais $m, n$, que seguem duas
-restrições: $m < n$ e $m$ não pode ser divisor de $n$. A função deve retornar
-uma matriz $n \times n$ preenchida com os números naturais de 1 a $n^2$.
+restrições: $m < n$ e $m$ não pode ser divisor de $n$ (com excessão do caso $m = 1$
+que pode ser permitido). A função deve retornar uma matriz $n \times n$
+preenchida com os números naturais de 1 a $n^2$.
 
 O preenchimento deve ser realizado no sentido horizontal, mas seguindo uma regra
 especial: a inserção dos números deve ser feita em passos de $m$ em $m$ casas.
