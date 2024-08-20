@@ -49,8 +49,11 @@ Construa uma função que receba dois retângulos e retorne um booleano indicand
 se eles colidem. Um retângulo é representado como uma tupla de 4 elementos, cada
 um sendo um dos vértices do retângulo, iniciando do superior esquerdo e
 avançando em sentido horário. Cada vértice é representado como uma tupla, contendo
-coordenadas x e y do plano cartesiano. Considere que os retângulos não são
-rotacionados (isto é, as arestas são paralelas aos eixos).
+coordenadas x e y do plano cartesiano.
+
+Considere que os retângulos não são rotacionados (isto é, as arestas são
+paralelas aos eixos) e que dois retângulos colidem se um dos vértices de um
+deles está contido no conjunto **fechado** delimitado pelo outro retângulo.
 
 Se um dos retẫngulos estiver representado incorretamente, a função deverá retornar
 `None` e mostrar uma mensagem indicando o problema com o input.
