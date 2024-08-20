@@ -9,7 +9,9 @@ Seja $p$ o perimetro de um triângulo retângulo com lados $\\{a, b, c\\}$
 triângulos retângulos com perímetro $p$: $\\{20, 48, 52\\}, \\{24, 45, 51\\}, \\{30, 40, 50\\}$.
 
 Escreva uma função que receba um inteiro $n$ e retorne um inteiro representando
-qual valor de $p \leq n$ temos o maior número de triângulos possível.
+qual valor de $p \leq n$ temos o maior número de triângulos possível. Se mais de
+um valor de $p$ for adequado, a função deve retornar o menor deles.
+
 Se a entrada da função não for um número inteiro, ela deverá imprimir uma mensagem
 avisando que só recebe inteiros e retornar `None`.
 
