@@ -17,9 +17,9 @@ avisando que só recebe inteiros e retornar `None`.
 
 ## Exercício 2
 
-Escreva uma função que receba dois números naturais $m, n$, que seguem duas
-restrições: $m < n$ e $m$ não pode ser divisor de $n$ (com excessão do caso $m = 1$
-que pode ser permitido). A função deve retornar uma matriz $n \times n$
+Escreva uma função que receba dois números naturais não nulos $m, n$, que seguem
+duas restrições: $m < n$ e $m$ não pode ser divisor de $n$ (com excessão do caso
+$m = 1$ que pode ser permitido). A função deve retornar uma matriz $n \times n$
 preenchida com os números naturais de 1 a $n^2$.
 
 O preenchimento deve ser realizado no sentido horizontal, mas seguindo uma regra
@@ -65,3 +65,6 @@ retângulos, por meio de argumentos nomeados `(**kwargs)`, e retorne uma lista c
 tuplas. Cada tupla deve ter dois elementos, que equivalem a um par de retângulos que
 colidem (os nomes dos argumentos devem ser usados para representar um retângulo).
 A ordenação dos retângulos de uma tupla deve seguir a ordenação passada na função.
+
+Se nenhum retângulo colidir, ou se nenhum ou apenas um retângulo for passado
+para a função, ela devera retornar uma lista vazia.
