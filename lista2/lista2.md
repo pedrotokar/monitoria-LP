@@ -15,7 +15,7 @@ números) e calcule a norma Euclidiana desse vetor. A função deve realizar
 validações básicas de entrada para garantir que o vetor contém apenas números.
 Se a entrada for inválida, a função deve levantar uma exceção apropriada.
 
-### Passos:
+### *Passos:*
 1. *Função para cálculo da norma:*
     - Implemente uma função chamada exercicio1(vetor) que calcule e retorne
     a norma Euclidiana do vetor, definida como
@@ -47,7 +47,7 @@ Traceback (most recent call last):
 ValueError: ...
 ```
 
-## *Exercício 2: Determinação da Equação da Reta*
+## Exercício 2: Determinação da Equação da Reta
 
 Dado dois pontos $ P_1 = (x_1, y_1) $ e $ P_2 = (x_2, y_2) $ no plano
 cartesiano, implemente uma função em Python que calcule e retorne a equação da
@@ -90,7 +90,7 @@ Traceback (most recent call last):
 ValueError: ...
 ```
 
-## *Exercício 3: Tratamento de erros em função externa*
+## Exercício 3: Tratamento de erros em função externa
 
 Você está desenvolvendo uma interface em terminal para ler arquivos JSON, com a
 ajuda de um módulo externo que implementa uma função para ler um arquivo JSON
