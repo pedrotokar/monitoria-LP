@@ -19,7 +19,7 @@ Se a entrada for inválida, a função deve levantar uma exceção apropriada.
 1. *Função para cálculo da norma:*
     - Implemente uma função chamada exercicio1(vetor) que calcule e retorne
     a norma Euclidiana do vetor, definida como
-    $ \| \mathbf{v} \| = \sqrt{\sum_{i=1}^n v_i^2} $.
+    $\|\mathbf{v}\| = \sqrt{\sum_{i=1}^n v_i^2}$.
 
 2. *Validação da entrada:*
     - A função deve verificar se a entrada é uma lista de números (int ou float).
@@ -49,15 +49,15 @@ ValueError: ...
 
 ## Exercício 2: Determinação da Equação da Reta
 
-Dado dois pontos $ P_1 = (x_1, y_1) $ e $ P_2 = (x_2, y_2) $ no plano
+Dado dois pontos $P_1 = (x_1, y_1)$ e $P_2 = (x_2, y_2)$ no plano
 cartesiano, implemente uma função em Python que calcule e retorne a equação da
-reta que passa por esses dois pontos na forma geral $ y = ax + b $.
+reta que passa por esses dois pontos na forma geral $y = ax + b$.
 
 ### *Passos:*
 1. *Entrada dos Pontos:*
     - A função exercicio2(ponto1, ponto2) deve receber dois parâmetros, ponto1 e
-    ponto2, que são tuplas representando as coordenadas dos pontos $ P_1 $ e
-    $ P_2 $, respectivamente.
+    ponto2, que são tuplas representando as coordenadas dos pontos $P_1$ e
+   $P_2$, respectivamente.
 
 2. *Validação da entrada:*
     - A função deve verificar se os pontos de entrada são tuplas de tamanho 2,
