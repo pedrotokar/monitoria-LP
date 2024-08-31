@@ -29,7 +29,7 @@ Se a entrada for inválida, a função deve levantar uma exceção apropriada.
 
 ### *Exemplos:*
 
-```
+```python
 >>> exercicio1((3, 4))
 5
 
@@ -72,7 +72,7 @@ reta que passa por esses dois pontos na forma geral $ y = ax + b $.
 
 ### *Exemplos:*
 
-```
+```python
 >>> exercicio2((0, 0), (3, 6))
 (2, 0)
 
