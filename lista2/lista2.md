@@ -27,6 +27,26 @@ Se a entrada for inválida, a função deve levantar uma exceção apropriada.
     numérico, a função deve levantar uma exceção do tipo TypeError ou
     ValueError com uma mensagem apropriada.
 
+### *Exemplos:*
+
+```
+>>> exercicio1((3, 4))
+5
+
+>>> exercicio1((1, 1, -1, -1))
+2
+
+>>> exercicio1(9)
+Traceback (most recent call last):
+    ...
+TypeError: ...
+
+>>> exercicio1((2, "6"))
+Traceback (most recent call last):
+    ...
+ValueError: ...
+```
+
 ## *Exercício 2: Determinação da Equação da Reta*
 
 Dado dois pontos $ P_1 = (x_1, y_1) $ e $ P_2 = (x_2, y_2) $ no plano
@@ -49,6 +69,26 @@ reta que passa por esses dois pontos na forma geral $ y = ax + b $.
 3. *Saída da função:*
    - A função deve retornar uma tupla (a, b) contendo os coeficientes da equação
    da reta.
+
+### *Exemplos:*
+
+```
+>>> exercicio2((0, 0), (3, 6))
+(2, 0)
+
+>>> exercicio2((2, 3), (5.5, 6.5))
+(1, 1)
+
+>>> exercicio2((5, 6), 12)
+Traceback (most recent call last):
+    ...
+TypeError: ...
+
+>>> exercicio2((9, 4), ("12", 9)
+Traceback (most recent call last):
+    ...
+ValueError: ...)
+```
 
 ## *Exercício 3: Tratamento de erros em função externa*
 
