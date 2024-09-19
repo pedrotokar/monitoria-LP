@@ -6,7 +6,7 @@ Entrega: crie um arquivo `respostas.py` na pasta raiz do repositório, contendo 
 funções relativas aos dois primeiros exercícios. A função relativa ao exercício
 um deverá se chamar `exercicio1` e a relativa ao exercício dois deverá se chamar
 `exercicio2`. O arquivo criado para o exercício 3 deverá estar na raiz do
-respositório. O prazo de entrega é dia ??/??, 23h59.
+respositório. O prazo de entrega é dia 12/09, 11h59.
 
 ## Exercício 1: Validação de Entrada e Cálculo de Norma Vetorial
 
@@ -22,10 +22,10 @@ Se a entrada for inválida, a função deve levantar uma exceção apropriada.
     $\|\mathbf{v}\| = \sqrt{\sum_{i=1}^n v_i^2}$.
 
 2. *Validação da entrada:*
-    - A função deve verificar se a entrada é uma lista de números (int ou float).
-    - Se a entrada não for uma lista, ou se algum elemento da lista não for
-    numérico, a função deve levantar uma exceção do tipo TypeError ou
-    ValueError com uma mensagem apropriada.
+    - A função deve verificar se a entrada é uma tupla de números (int ou float).
+    - Se a entrada não for uma tupla, ou se algum elemento da tupla não for
+    numérico, a função deve levantar uma exceção do tipo `TypeError` ou
+    `ValueError` com uma mensagem apropriada.
 
 ### *Exemplos:*
 
