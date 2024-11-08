@@ -1,4 +1,4 @@
-# Atividade - 08/11
+# Atividade - 09/11
 
 Objetivo: implementar classes que modelem um dado problema. Implementar herança entre
 classes. Implementar três tipos de relacionamentos entre classes: Associação,
@@ -7,7 +7,7 @@ Composição e Agregação. Se não se lembrar o que são essas relações,
 
 Entrega: deverá ser criado um repositório no GitHub contendo os arquivos resultantes
 da atividade, na conta do aluno. Enviar o link do repositório, nome e matrícula
-para pedrotokar2004@gmail.com com o assunto "Atividade LP 0811". **Prazo: 09/11 23h59**
+para pedrotokar2004@gmail.com com o assunto "Atividade LP 0911". **Prazo: 10/11 23h59**
 
 OBS: não é necessário fazer documentação, mas é importante comentar o motivo das
 suas escolhas para implementação. É necessário ter pelo menos um driver code que
