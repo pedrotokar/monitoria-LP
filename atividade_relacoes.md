@@ -3,7 +3,7 @@
 Objetivo: implementar classes que modelem um dado problema. Implementar herança entre
 classes. Implementar três tipos de relacionamentos entre classes: Associação,
 Composição e Agregação. Se não se lembrar o que são essas relações,
-(consulte essa explicação.)[https://github.com/matwerner/fgv-lp/blob/master/aulas/Semana%2011%20-%20Classes/35_classes_associacao_agregacao_composicao.md].
+[consulte essa explicação.](https://github.com/matwerner/fgv-lp/blob/master/aulas/Semana%2011%20-%20Classes/35_classes_associacao_agregacao_composicao.md).
 
 Entrega: deverá ser criado um repositório no GitHub contendo os arquivos resultantes
 da atividade, na conta do aluno. Enviar o link do repositório, nome e matrícula
