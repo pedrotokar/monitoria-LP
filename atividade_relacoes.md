@@ -2,7 +2,7 @@
 
 Objetivo: implementar classes que modelem um dado problema. Implementar herança entre
 classes. Implementar três tipos de relacionamentos entre classes: Associação,
-Composição e Agregação. Se não se lembrar do que são essas relações,
+Composição e Agregação. Se não se lembrar o que são essas relações,
 (consulte essa explicação.)[https://github.com/matwerner/fgv-lp/blob/master/aulas/Semana%2011%20-%20Classes/35_classes_associacao_agregacao_composicao.md].
 
 Entrega: deverá ser criado um repositório no GitHub contendo os arquivos resultantes
@@ -35,14 +35,16 @@ Além de registrar essas informações, é preciso que um usuário do sistema po
 - Consultar quantos instrumentos de cada tipo tem disponíveis na loja;
 - Consultar quantos funcionários de cada cargo estão alocados na loja.
 
-Por último, as lojas podem armazenar qual a outra loja que esteja mais perto delas.
+(Para o quadro de funcionários e estoque, não necessariamente precisa ser capaz
+de remover um objeto especifico. Pode remover qualquer um arbitrariamente, para
+simplificar)
+Por último, as lojas podem armazenar qual a outra loja que é mais perto delas.
 
 A segunda entidade são os funcionários. O sistema precisa manter registro das
 seguintes informações deles:
 
 - Nome completo;
 - Documento (CPF);
-- Data de nascimento;
 - Salário;
 - Cargo;
 - Loja atual.
@@ -52,7 +54,7 @@ ou seja, continuam existindo independente da loja. Além disso, é importante no
 que existe uma hierarquia fixa de cargos na franquia, ou seja, existe um conjunto
 fixo de cargos que um funcionário pode ter (e cada funcionário tem apenas um cargo)
 
-A última entidade são os instrumentos. Como dito acima, a loja vende três tipos de
+A última entidade são os instrumentos. Como dito acima, as lojas vendem três tipos de
 instrumentos: guitarras, baixos e violões. O sistema precisa manter as seguintes
 informações para todos os instrumentos:
 
@@ -64,7 +66,7 @@ informações para todos os instrumentos:
 Além disso, instrumentos diferentes podem ter peculiaridades e informações a
 serem armazenadas diferentes (use sua criatividade e conhecimento de música).
 
-É importante ter em mente que os instrumentos nunca são remanjeados: um instrumento
+É importante ter em mente que os instrumentos nunca são remanejados: um instrumento
 existe exclusivamente em uma loja, e não é transferido para outra. Devido a essa
 natureza, não existem instrumentos que não são associados a nenhuma loja. Logo,
 se uma loja deixa de existir, os instrumentos também deixam (são doados para caridade).
